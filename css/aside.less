@@ -1,0 +1,99 @@
+/* Aside*/
+aside.nav{
+    background-color: rgba(243,224,59,0.9);
+    box-sizing: border-box;
+    display: block;
+    height: 100vh;
+    left: -100%;
+    margin: auto;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+
+    .btn-nav-collapsed{
+        background-color: transparent;
+        background-image: url(../images/icon-menu-hover.png);
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        border-radius: none;
+        border: none;
+        -webkit-box-shadow: 0 0 0 transparent;
+        -moz-box-shadow: 0 0 0 transparent;
+        -ms-box-shadow: 0 0 0 transparent;
+        -o-box-shadow: 0 0 0 transparent;
+        box-shadow: 0 0 0 transparent;
+        cursor: pointer;
+        display: block;
+        height: 100px;
+        margin-top: 70px;
+        overflow: hidden;
+        outline: 0;
+        padding: 0;
+        position: relative;
+        width: 100px;
+    }
+
+    nav#nav{
+        margin-top: 50px;
+        padding: 0;
+        width: 100%;
+
+        ul{
+            margin: auto;
+            padding: 0;
+            list-style: none;
+            width: 100%;
+
+            li{
+                float: left;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 30px;
+                width: 40%;
+                a{
+                    -webkit-border-radius: 200px;
+                    -moz-border-radius: 200px;
+                    -ms-border-radius: 200px;
+                    -o-border-radius: 200px;
+                    border-radius: 200px;
+                    background-color: transparent;
+                    border: 3px solid #000;
+                    margin: auto;
+                    padding: 35px 20px;
+                    position: relative;
+                    overflow: hidden;
+                    outline: 0;
+                    text-decoration: none;
+                    width: 100%;
+
+                    img{
+                        height: 48px;
+                        position: relative;
+                        top: -3px;
+                        width: 48px;
+                    }
+
+
+                    &:hover{
+                        background-color: #ffc107;
+                        text-decoration: none;
+                    }
+                }
+
+                h6{
+                    color: #000;
+                    font-family: 'StaticBold';
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 22px;
+                    margin-top: 30px;
+                    padding: 0;
+                    position: relative;
+                }
+            }
+        }
+    }
+}
+/*End Aside*/
